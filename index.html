@@ -10,7 +10,7 @@
     <div class="container">
         <div class="input-field">
             <div class="left-side">
-                <input type="text">
+                <input type="number" id="first-operand">
             </div>
             <div class="middle-side">
                 <select name="operators" id="operators">
@@ -21,18 +21,20 @@
                 </select>
             </div>
             <div class="right-side">
-                <input type="text">
+                <input type="number" id="second-operand">
             </div>
         </div>
 
         <div class="result-field">
-            
+            <p id="result"></p>
         </div>
 
         <div class="buttons">
-            <button>Calculate</button>
+            <button onclick="calculator()">Calculate</button>
             <button>Clear</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
