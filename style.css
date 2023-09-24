@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.input-field {
+    display: flex;
+}
+
+.middle-side {
+    margin: 0 10px;
+}
+
+.result-field {
+    margin-top: 30px;
+    background-color: aliceblue;
+    height: 40px;
+    width: 400px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.buttons button {
+    background-color: plum;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
